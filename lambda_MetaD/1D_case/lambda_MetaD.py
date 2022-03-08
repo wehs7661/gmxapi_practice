@@ -3,7 +3,7 @@ sys.path.append('/home/wei-tse/gmxapi_21.4/lib/python3.7/site-packages')
 import gmxapi as gmx
 
 lambda_MetaD = gmx.commandline_operation('gmx',
-                              arguments=['mdrun', '-plumed', '../plumed.dat'],
+                              arguments=['mdrun', '-plumed', '../plumed_1.dat'],
                               input_files={'-s': '../sys2_lambda.tpr'},
                               output_files={
                                   '-c': '../sys2_lambda.gro',

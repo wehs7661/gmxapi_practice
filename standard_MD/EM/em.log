@@ -34,7 +34,7 @@ GROMACS:      gmx mdrun, version 2021.4-plumed-2.7.3
 Executable:   /usr/local/gromacs/bin/gmx
 Data prefix:  /usr/local/gromacs
 Working dir:  /home/wei-tse/Documents/gmxapi_practice/gmxapi.commandline.cli3_i0
-Process ID:   4575
+Process ID:   22204
 Command line:
   gmx mdrun -s /home/wei-tse/Documents/gmxapi_practice/standard_MD/EM/sys2_em.tpr -c ../standard_MD/EM/sys2_em.gro -e ../standard_MD/EM/em.edr -g ../standard_MD/EM/em.log -o ../standard_MD/EM/em.trr
 
@@ -135,7 +135,7 @@ Input Parameters:
    comm-mode                      = Linear
    nstcomm                        = 100
    bd-fric                        = 0
-   ld-seed                        = -588529846
+   ld-seed                        = 2130116253
    emtol                          = 100
    emstep                         = 0.01
    niter                          = 20
@@ -336,7 +336,7 @@ J. Comp. Chem. 13 (1992) pp. 952-962
 
 Note that activating steepest-descent energy minimization via the integrator .mdp option and the command gmx mdrun may be available in a different form in a future version of GROMACS, e.g. gmx minimize and an .mdp option.
 Initiating Steepest Descents
-Started Steepest Descents on rank 0 Tue Mar  8 02:40:33 2022
+Started Steepest Descents on rank 0 Tue Mar  8 12:52:08 2022
 
 
 Steepest Descents:
@@ -15893,5 +15893,5 @@ Steepest Descents converged to Fmax < 100 in 2008 steps
 Potential Energy  = -1.3406025e+04
 Maximum force     =  9.8168983e+01 on atom 2
 Norm of force     =  1.2117868e+01
-Finished mdrun on rank 0 Tue Mar  8 02:40:34 2022
+Finished mdrun on rank 0 Tue Mar  8 12:52:09 2022
 
