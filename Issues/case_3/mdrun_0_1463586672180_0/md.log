@@ -31,8 +31,8 @@ as published by the Free Software Foundation; either version 2.1
 of the License, or (at your option) any later version.
 
 GROMACS:      GROMACS, version 2021.4-plumed-2.8.0
-Working dir:  /ocean/projects/cts160011p/wehs7661/SCALE-MS/Issue/case_3/mdrun_0_1434145704500_0
-Process ID:   84873
+Working dir:  /ocean/projects/cts160011p/wehs7661/gmxapi_practice/Issues/case_3/mdrun_0_1463586672180_0
+Process ID:   31952
 
 GROMACS version:    2021.4-plumed-2.8.0
 Precision:          mixed
@@ -461,7 +461,7 @@ We have the following groups for center of mass motion removal:
 RMS relative constraint deviation after constraining: 0.00e+00
 Initial temperature: 301.129 K
 
-Started mdrun on rank 0 Mon May  2 13:40:28 2022
+Started mdrun on rank 0 Mon May  2 17:54:38 2022
 
            Step           Time
               0        0.00000
@@ -474,98 +474,102 @@ Started mdrun on rank 0 Mon May  2 13:40:28 2022
     Kinetic En.   Total Energy  Conserved En.    Temperature Pres. DC (bar)
     6.31314e+03   -2.75430e+04   -2.75430e+04    3.01129e+02   -1.45374e+02
  Pressure (bar)      dVcoul/dl       dVvdw/dl
-   -3.10563e+02    1.19370e+01    1.67746e+01
+   -3.10568e+02    1.19370e+01    1.67746e+01
 
 
-DD  step 39 load imb.: force 63.5%
+DD  step 39 load imb.: force 20.3%
 
-step 80 Turning on dynamic load balancing, because the performance loss due to load imbalance is 6.4 %.
+step 80 Turning on dynamic load balancing, because the performance loss due to load imbalance is 3.9 %.
 
 DD  load balancing is limited by minimum cell size in dimension X Y
-DD  step 999  vol min/aver 0.657! load imb.: force 25.8%
+DD  step 999  vol min/aver 0.645! load imb.: force 24.9%
            Step           Time
            1000        2.00000
 
              MC-lambda information
   Wang-Landau incrementor is:         0.5
   N  CoulL   VdwL    Count   G(in kT)  dG(in kT)
-  1  0.000  0.000       14    0.00000    1.50000   
-  2  0.200  0.000       11    1.50000    1.00000   
-  3  0.400  0.000        9    2.50000    1.00000   
-  4  0.600  0.000        7    3.50000   -1.00000   
-  5  0.800  0.000        9    2.50000    0.00000   
-  6  0.900  0.000        9    2.50000    0.50000   
-  7  1.000  0.000        8    3.00000    0.50000   
-  8  1.000  0.200        7    3.50000    0.00000   
-  9  1.000  0.400        7    3.50000    0.50000   
- 10  1.000  0.600        6    4.00000   -0.50000   
- 11  1.000  0.800        7    3.50000    0.50000 <<
- 12  1.000  1.000        6    4.00000    0.00000   
+  1  0.000  0.000       13    0.00000    0.50000   
+  2  0.200  0.000       12    0.50000    2.00000   
+  3  0.400  0.000        8    2.50000    0.00000   
+  4  0.600  0.000        8    2.50000    1.00000   
+  5  0.800  0.000        6    3.50000   -1.00000   
+  6  0.900  0.000        8    2.50000    1.00000   
+  7  1.000  0.000        6    3.50000    0.00000   
+  8  1.000  0.200        6    3.50000    1.00000   
+  9  1.000  0.400        4    4.50000    0.00000   
+ 10  1.000  0.600        4    4.50000   -3.00000   
+ 11  1.000  0.800       10    1.50000   -2.50000 <<
+ 12  1.000  1.000       15   -1.00000    0.00000   
 
    Energies (kJ/mol)
            Bond          Angle    Proper Dih.          LJ-14     Coulomb-14
-    1.26783e+00    1.72633e+00    6.11644e+00   -4.98841e-01   -1.16917e+01
+    1.27677e+00    8.14159e+00    8.31295e-01   -4.98079e-01   -1.16632e+01
         LJ (SR)  Disper. corr.   Coulomb (SR)   Coul. recip.      Potential
-    5.25267e+03   -2.18370e+02   -3.87454e+04    2.97853e+02   -3.34164e+04
+    5.39239e+03   -2.18370e+02   -3.91852e+04    2.90919e+02   -3.37222e+04
     Kinetic En.   Total Energy  Conserved En.    Temperature Pres. DC (bar)
-    6.18411e+03   -2.72322e+04   -2.75449e+04    2.94974e+02   -1.44030e+02
+    6.49405e+03   -2.72281e+04   -2.75200e+04    3.09758e+02   -1.44030e+02
  Pressure (bar)      dVcoul/dl       dVvdw/dl
-    2.43979e+02    9.59456e+00   -2.12785e+01
+    3.93365e+02    2.74790e+01   -7.62623e+01
 
 
 DD  load balancing is limited by minimum cell size in dimension X Y
-DD  step 1999  vol min/aver 0.653! load imb.: force 16.0%
+DD  step 1999  vol min/aver 0.644! load imb.: force 19.8%
            Step           Time
            2000        4.00000
 
              MC-lambda information
   Wang-Landau incrementor is:         0.5
   N  CoulL   VdwL    Count   G(in kT)  dG(in kT)
-  1  0.000  0.000       17    0.00000    1.50000   
-  2  0.200  0.000       14    1.50000    1.00000 <<
-  3  0.400  0.000       12    2.50000    1.50000   
-  4  0.600  0.000        9    4.00000    0.00000   
-  5  0.800  0.000        9    4.00000    0.00000   
-  6  0.900  0.000        9    4.00000   -0.50000   
-  7  1.000  0.000       10    3.50000   -0.50000   
-  8  1.000  0.200       11    3.00000   -4.00000   
-  9  1.000  0.400       19   -1.00000   -4.00000   
- 10  1.000  0.600       27   -5.00000   -2.50000   
- 11  1.000  0.800       32   -7.50000    0.50000   
- 12  1.000  1.000       31   -7.00000    0.00000   
+  1  0.000  0.000       23    0.00000    1.00000   
+  2  0.200  0.000       21    1.00000    2.00000   
+  3  0.400  0.000       17    3.00000    1.50000   
+  4  0.600  0.000       14    4.50000    0.50000   
+  5  0.800  0.000       13    5.00000    1.00000   
+  6  0.900  0.000       11    6.00000   -0.50000 <<
+  7  1.000  0.000       12    5.50000   -1.50000   
+  8  1.000  0.200       15    4.00000   -1.50000   
+  9  1.000  0.400       18    2.50000    0.00000   
+ 10  1.000  0.600       18    2.50000   -0.50000   
+ 11  1.000  0.800       19    2.00000    0.00000   
+ 12  1.000  1.000       19    2.00000    0.00000   
 
    Energies (kJ/mol)
            Bond          Angle    Proper Dih.          LJ-14     Coulomb-14
-    3.70809e+00    2.10910e-01    1.73941e+00   -4.85837e-01   -1.14317e+01
+    2.30674e+00    4.45038e+00    9.07230e-02   -4.91574e-01   -1.15182e+01
         LJ (SR)  Disper. corr.   Coulomb (SR)   Coul. recip.      Potential
-    5.09150e+03   -2.20409e+02   -3.86724e+04    3.30844e+02   -3.34768e+04
+    5.42966e+03   -2.20409e+02   -3.91460e+04    3.07932e+02   -3.36339e+04
     Kinetic En.   Total Energy  Conserved En.    Temperature Pres. DC (bar)
-    6.25093e+03   -2.72258e+04   -2.74951e+04    2.98161e+02   -1.45374e+02
+    6.30250e+03   -2.73314e+04   -2.74723e+04    3.00621e+02   -1.45374e+02
  Pressure (bar)      dVcoul/dl       dVvdw/dl
-   -2.84566e+01    6.61723e+00    1.81943e+01
+    6.91093e+02    1.87779e+01    3.04312e-01
 
 
-DD  load balancing is limited by minimum cell size in dimension Y
-DD  step 2479  vol min/aver 0.646! load imb.: force 19.7%
+Step 2310: weights are now: 0.00000 1.00000 2.00000 2.50000 3.00000 3.00000 2.50000 3.50000 3.00000 3.00000 2.50000 2.50000
+
+step 2400 Turning off dynamic load balancing, because it is degrading performance.
+Atom distribution over 16 domains: av 157 stddev 16 min 144 max 177
+
+DD  step 2479 load imb.: force 41.1%
            Step           Time
            2500        5.00000
 
-Writing checkpoint, step 2500 at Mon May  2 13:40:30 2022
+Writing checkpoint, step 2500 at Mon May  2 17:54:40 2022
 
 
    Energies (kJ/mol)
            Bond          Angle    Proper Dih.          LJ-14     Coulomb-14
-    3.55303e+00    7.60618e+00    3.35033e-01   -4.94465e-01   -1.15719e+01
+    3.75485e-01    1.18734e+00    1.15432e-01   -4.95281e-01   -1.15892e+01
         LJ (SR)  Disper. corr.   Coulomb (SR)   Coul. recip.      Potential
-    5.35573e+03   -2.20409e+02   -3.90840e+04    3.07312e+02   -3.36419e+04
+    5.54170e+03   -2.19899e+02   -3.91104e+04    2.89951e+02   -3.35090e+04
     Kinetic En.   Total Energy  Conserved En.    Temperature Pres. DC (bar)
-    6.51430e+03   -2.71276e+04   -2.74684e+04    3.10724e+02   -1.45374e+02
+    6.28856e+03   -2.72205e+04   -2.74767e+04    2.99956e+02   -1.45038e+02
  Pressure (bar)      dVcoul/dl       dVvdw/dl
-    5.30319e+02    4.94585e-02    1.56112e+01
+    9.91140e+02    1.98134e+00   -1.95593e+00
 
 
 Energy conservation over simulation part #1 of length 5 ns, time 0 to 5 ns
-  Conserved energy drift: 5.92e-03 kJ/mol/ps per atom
+  Conserved energy drift: 5.26e-03 kJ/mol/ps per atom
 
 
 	<======  ###############  ==>
@@ -576,23 +580,23 @@ Energy conservation over simulation part #1 of length 5 ns, time 0 to 5 ns
 
    Energies (kJ/mol)
            Bond          Angle    Proper Dih.          LJ-14     Coulomb-14
-    1.52686e+00    2.62470e+00    1.93714e+00   -4.96955e-01   -1.17199e+01
+    1.63818e+00    3.40065e+00    1.57032e+00   -4.96763e-01   -1.17254e+01
         LJ (SR)  Disper. corr.   Coulomb (SR)   Coul. recip.      Potential
-    5.24498e+03   -2.19559e+02   -3.89959e+04    3.09388e+02   -3.36672e+04
+    5.29500e+03   -2.19832e+02   -3.90892e+04    3.09311e+02   -3.37103e+04
     Kinetic En.   Total Energy  Conserved En.    Temperature Pres. DC (bar)
-    6.24669e+03   -2.74205e+04   -2.75240e+04    2.97959e+02   -1.44814e+02
+    6.25558e+03   -2.74548e+04   -2.75055e+04    2.98383e+02   -1.44994e+02
  Pressure (bar)      dVcoul/dl       dVvdw/dl
-    1.66993e+02   -1.19734e+01   -8.96110e+00
+    2.53316e+02   -8.91663e+00   -4.73758e+00
 
    Total Virial (kJ/mol)
-    1.93625e+03    4.76164e+00   -1.62768e+01
-    4.48422e+00    2.00566e+03   -2.82803e+01
-   -1.62462e+01   -2.81996e+01    1.92541e+03
+    1.78120e+03    3.12196e+00   -1.70068e+01
+    2.93524e+00    1.95514e+03   -3.07692e+01
+   -1.69417e+01   -3.06546e+01    1.94377e+03
 
    Pressure (bar)
-    1.87029e+02    5.88063e+00    1.93937e+01
-    6.24697e+00    1.03724e+02    2.99691e+01
-    1.93532e+01    2.98625e+01    2.10227e+02
+    4.19180e+02   -8.54198e+00    8.24023e+00
+   -8.29541e+00    1.57408e+02    4.30691e+01
+    8.15422e+00    4.29177e+01    1.83359e+02
 
 
 	M E G A - F L O P S   A C C O U N T I N G
@@ -604,17 +608,17 @@ Energy conservation over simulation part #1 of length 5 ns, time 0 to 5 ns
 
  Computing:                               M-Number         M-Flops  % Flops
 -----------------------------------------------------------------------------
- NB Free energy kernel                 2916.875304        2916.875     0.6
- Pair Search distance check              77.847352         700.626     0.1
- NxN Ewald Elec. + LJ [V&F]            1967.223584      249837.395    51.4
- NxN Ewald Elec. [V&F]                 1948.311648      163658.178    33.7
+ NB Free energy kernel                 2993.833440        2993.833     0.6
+ Pair Search distance check              77.793246         700.139     0.1
+ NxN Ewald Elec. + LJ [V&F]            1969.457600      250121.115    51.4
+ NxN Ewald Elec. [V&F]                 1952.292992      163992.611    33.7
  1,4 nonbonded interactions               0.002501           0.225     0.0
  Calc Weights                            18.915063         680.942     0.1
  Spread Q Bspline                       807.042688        1614.085     0.3
  Gather F Bspline                       807.042688        4842.256     1.0
  3D-FFT                                7239.134496       57913.076    11.9
  Solve PME                               25.930368        1659.544     0.3
- Reset In Box                             0.158823           0.476     0.0
+ Reset In Box                             0.156302           0.469     0.0
  CG-CoM                                   0.161344           0.484     0.0
  Bonds                                    0.007503           0.443     0.0
  Angles                                   0.005002           0.840     0.0
@@ -626,25 +630,25 @@ Energy conservation over simulation part #1 of length 5 ns, time 0 to 5 ns
  Constraint-Vir                           6.295017         151.080     0.0
  Settle                                   4.198356        1553.392     0.3
 -----------------------------------------------------------------------------
- Total                                                  485966.361   100.0
+ Total                                                  486660.978   100.0
 -----------------------------------------------------------------------------
 
 
     D O M A I N   D E C O M P O S I T I O N   S T A T I S T I C S
 
- av. #atoms communicated per step for force:  2 x 14788.3
+ av. #atoms communicated per step for force:  2 x 14745.3
 
 
 Dynamic load balancing report:
- DLB was turned on during the run due to measured imbalance.
- Average load imbalance: 24.5%.
- The balanceable part of the MD step is 27%, load imbalance is computed from this.
- Part of the total run time spent waiting due to load imbalance: 6.6%.
- Steps where the load balancing was limited by -rdd, -rcon and/or -dds: X 2 % Y 2 %
+ DLB was off during the run due to low measured imbalance.
+ Average load imbalance: 23.4%.
+ The balanceable part of the MD step is 26%, load imbalance is computed from this.
+ Part of the total run time spent waiting due to load imbalance: 6.0%.
 
-NOTE: 6.6 % of the available CPU time was lost due to load imbalance
+NOTE: 6.0 % of the available CPU time was lost due to load imbalance
       in the domain decomposition.
-      You can consider manually changing the decomposition (option -dd);
+      Dynamic load balancing was automatically disabled, but it might be beneficial to manually tuning it on (option -dlb on.)
+      You can also consider manually changing the decomposition (option -dd);
       e.g. by using fewer domains along the box dimension in which there is
       considerable inhomogeneity in the simulated system.
 
@@ -655,39 +659,39 @@ On 16 MPI ranks, each using 8 OpenMP threads
  Computing:          Num   Num      Call    Wall time         Giga-Cycles
                      Ranks Threads  Count      (s)         total sum    %
 -----------------------------------------------------------------------------
- Domain decomp.        16    8         63       0.037         10.510   1.9
- DD comm. load         16    8         62       0.000          0.038   0.0
- DD comm. bounds       16    8         61       0.001          0.167   0.0
- Neighbor search       16    8         63       0.017          4.909   0.9
- Comm. coord.          16    8       2438       0.054         15.641   2.8
- Force                 16    8       2501       0.237         68.216  12.0
- Wait + Comm. F        16    8       2501       0.053         15.345   2.7
- PME mesh              16    8       2501       1.206        346.619  61.0
- NB X/F buffer ops.    16    8       7377       0.057         16.345   2.9
- Write traj.           16    8          4       0.006          1.853   0.3
- Update                16    8      10004       0.045         12.972   2.3
- Constraints           16    8       5004       0.027          7.733   1.4
- Comm. energies        16    8       5002       0.167         48.126   8.5
- Rest                                           0.067         19.342   3.4
+ Domain decomp.        16    8         63       0.033          9.582   1.3
+ DD comm. load         16    8         61       0.000          0.036   0.0
+ DD comm. bounds       16    8         58       0.001          0.153   0.0
+ Neighbor search       16    8         63       0.016          4.586   0.6
+ Comm. coord.          16    8       2438       0.071         20.523   2.9
+ Force                 16    8       2501       0.233         66.899   9.4
+ Wait + Comm. F        16    8       2501       0.058         16.781   2.4
+ PME mesh              16    8       2501       1.486        427.224  59.9
+ NB X/F buffer ops.    16    8       7377       0.060         17.162   2.4
+ Write traj.           16    8          4       0.017          4.837   0.7
+ Update                16    8      10004       0.046         13.089   1.8
+ Constraints           16    8       5004       0.028          8.114   1.1
+ Comm. energies        16    8       5002       0.361        103.872  14.6
+ Rest                                           0.070         20.147   2.8
 -----------------------------------------------------------------------------
- Total                                          1.976        567.815 100.0
+ Total                                          2.481        713.005 100.0
 -----------------------------------------------------------------------------
  Breakdown of PME mesh computation
 -----------------------------------------------------------------------------
- PME redist. X/F       16    8       7503       0.284         81.604  14.4
- PME spread            16    8       5002       0.251         72.282  12.7
- PME gather            16    8       5002       0.155         44.441   7.8
- PME 3D-FFT            16    8      10004       0.164         47.209   8.3
- PME 3D-FFT Comm.      16    8      20008       0.331         95.087  16.7
- PME solve Elec        16    8       5002       0.010          2.759   0.5
+ PME redist. X/F       16    8       7503       0.363        104.282  14.6
+ PME spread            16    8       5002       0.280         80.610  11.3
+ PME gather            16    8       5002       0.182         52.436   7.4
+ PME 3D-FFT            16    8      10004       0.171         49.272   6.9
+ PME 3D-FFT Comm.      16    8      20008       0.469        134.689  18.9
+ PME solve Elec        16    8       5002       0.009          2.690   0.4
 -----------------------------------------------------------------------------
 
-NOTE: 8 % of the run time was spent communicating energies,
+NOTE: 15 % of the run time was spent communicating energies,
       you might want to increase some nst* mdp options
 
                Core t (s)   Wall t (s)        (%)
-       Time:      252.827        1.976    12797.8
+       Time:      317.474        2.481    12798.2
                  (ns/day)    (hour/ns)
-Performance:      218.761        0.110
-Finished mdrun on rank 0 Mon May  2 13:40:30 2022
+Performance:      174.220        0.138
+Finished mdrun on rank 0 Mon May  2 17:54:40 2022
 

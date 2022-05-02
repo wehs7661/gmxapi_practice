@@ -33,8 +33,8 @@ of the License, or (at your option) any later version.
 GROMACS:      gmx mdrun, version 2021.4-plumed-2.8.0
 Executable:   /jet/home/wehs7661/pkgs/gromacs/2021.4/bin/gmx_mpi
 Data prefix:  /jet/home/wehs7661/pkgs/gromacs/2021.4
-Working dir:  /ocean/projects/cts160011p/wehs7661/SCALE-MS/Issue/case_1
-Process ID:   71500
+Working dir:  /ocean/projects/cts160011p/wehs7661/gmxapi_practice/Issues/case_1
+Process ID:   18590
 Command line:
   gmx_mpi mdrun -deffnm sys -s sys.tpr
 
@@ -469,7 +469,7 @@ We have the following groups for center of mass motion removal:
 RMS relative constraint deviation after constraining: 0.00e+00
 Initial temperature: 301.129 K
 
-Started mdrun on rank 0 Mon May  2 13:39:01 2022
+Started mdrun on rank 0 Mon May  2 17:54:00 2022
 
            Step           Time
               0        0.00000
@@ -482,93 +482,93 @@ Started mdrun on rank 0 Mon May  2 13:39:01 2022
     Kinetic En.   Total Energy  Conserved En.    Temperature Pres. DC (bar)
     6.31314e+03   -2.75430e+04   -2.75430e+04    3.01129e+02   -1.45374e+02
  Pressure (bar)      dVcoul/dl       dVvdw/dl
-   -3.10572e+02    1.19371e+01    1.67746e+01
+   -3.10566e+02    1.19371e+01    1.67746e+01
 
 
-DD  step 39 load imb.: force 23.9%  pme mesh/force 1.841
+DD  step 39 load imb.: force 22.6%  pme mesh/force 1.969
 
-DD  step 999 load imb.: force 34.5%  pme mesh/force 1.433
+DD  step 999 load imb.: force 28.8%  pme mesh/force 1.427
            Step           Time
            1000        2.00000
 
              MC-lambda information
   Wang-Landau incrementor is:         0.5
   N  CoulL   VdwL    Count   G(in kT)  dG(in kT)
-  1  0.000  0.000       17    0.00000    2.00000   
-  2  0.200  0.000       13    2.00000    0.50000   
-  3  0.400  0.000       12    2.50000    1.00000   
-  4  0.600  0.000       10    3.50000    0.00000   
-  5  0.800  0.000       10    3.50000    0.00000   
-  6  0.900  0.000       10    3.50000    0.50000   
-  7  1.000  0.000        9    4.00000    0.00000   
-  8  1.000  0.200        9    4.00000    1.00000   
-  9  1.000  0.400        7    5.00000    2.50000 <<
- 10  1.000  0.600        2    7.50000    0.50000   
- 11  1.000  0.800        1    8.00000    0.50000   
- 12  1.000  1.000        0    8.50000    0.00000   
+  1  0.000  0.000       21    0.00000    1.00000   
+  2  0.200  0.000       19    1.00000    3.50000   
+  3  0.400  0.000       12    4.50000    0.00000   
+  4  0.600  0.000       12    4.50000    1.00000   
+  5  0.800  0.000       10    5.50000    1.00000 <<
+  6  0.900  0.000        8    6.50000   -1.00000   
+  7  1.000  0.000       10    5.50000    1.50000   
+  8  1.000  0.200        7    7.00000    3.00000   
+  9  1.000  0.400        1   10.00000    0.50000   
+ 10  1.000  0.600        0   10.50000    0.00000   
+ 11  1.000  0.800        0   10.50000    0.00000   
+ 12  1.000  1.000        0   10.50000    0.00000   
 
    Energies (kJ/mol)
            Bond          Angle    Proper Dih.          LJ-14     Coulomb-14
-    1.68842e+00    4.40183e-01    7.05160e+00   -4.98687e-01   -1.16854e+01
+    3.23524e+00    1.12749e+00    2.24383e-01   -4.94788e-01   -1.19808e+01
         LJ (SR)  Disper. corr.   Coulomb (SR)   Coul. recip.      Potential
-    5.85754e+03   -2.19389e+02   -3.96526e+04    3.23530e+02   -3.36939e+04
+    5.62546e+03   -2.20409e+02   -3.94344e+04    3.01277e+02   -3.37360e+04
     Kinetic En.   Total Energy  Conserved En.    Temperature Pres. DC (bar)
-    6.37381e+03   -2.73201e+04   -2.75150e+04    3.04022e+02   -1.44702e+02
+    6.44590e+03   -2.72901e+04   -2.75159e+04    3.07461e+02   -1.45374e+02
  Pressure (bar)      dVcoul/dl       dVvdw/dl
-    1.43877e+03   -2.36344e+00    1.67967e+00
+    1.06841e+03    2.00566e+01   -1.52909e+01
 
 
-DD  step 1999 load imb.: force 36.7%  pme mesh/force 1.442
+DD  step 1999 load imb.: force 48.4%  pme mesh/force 1.215
            Step           Time
            2000        4.00000
 
              MC-lambda information
   Wang-Landau incrementor is:         0.5
   N  CoulL   VdwL    Count   G(in kT)  dG(in kT)
-  1  0.000  0.000       28    0.00000    1.50000   
-  2  0.200  0.000       25    1.50000    2.00000   
-  3  0.400  0.000       21    3.50000    0.50000   
-  4  0.600  0.000       20    4.00000    1.00000   
-  5  0.800  0.000       18    5.00000    1.00000   
-  6  0.900  0.000       16    6.00000   -1.00000   
-  7  1.000  0.000       18    5.00000    1.00000 <<
-  8  1.000  0.200       16    6.00000    1.50000   
-  9  1.000  0.400       13    7.50000    0.50000   
- 10  1.000  0.600       12    8.00000    2.00000   
- 11  1.000  0.800        8   10.00000    1.50000   
- 12  1.000  1.000        5   11.50000    0.00000   
+  1  0.000  0.000       26    0.00000    1.50000   
+  2  0.200  0.000       23    1.50000    1.50000   
+  3  0.400  0.000       20    3.00000    0.50000 <<
+  4  0.600  0.000       19    3.50000    0.50000   
+  5  0.800  0.000       18    4.00000    0.50000   
+  6  0.900  0.000       17    4.50000    0.50000   
+  7  1.000  0.000       16    5.00000    1.50000   
+  8  1.000  0.200       13    6.50000    1.00000   
+  9  1.000  0.400       11    7.50000   -2.00000   
+ 10  1.000  0.600       15    5.50000    1.50000   
+ 11  1.000  0.800       12    7.00000    1.00000   
+ 12  1.000  1.000       10    8.00000    0.00000   
 
    Energies (kJ/mol)
            Bond          Angle    Proper Dih.          LJ-14     Coulomb-14
-    6.39937e-01    5.00639e+00    3.10925e+00   -4.92487e-01   -1.15341e+01
+    1.83505e+00    1.88201e-01    8.47764e-01   -4.95255e-01   -1.15886e+01
         LJ (SR)  Disper. corr.   Coulomb (SR)   Coul. recip.      Potential
-    5.53320e+03   -2.20409e+02   -3.92676e+04    2.93926e+02   -3.36642e+04
+    5.28629e+03   -2.20409e+02   -3.88806e+04    3.15069e+02   -3.35089e+04
     Kinetic En.   Total Energy  Conserved En.    Temperature Pres. DC (bar)
-    6.30457e+03   -2.73596e+04   -2.75113e+04    3.00720e+02   -1.45374e+02
+    6.12346e+03   -2.73854e+04   -2.75022e+04    2.92081e+02   -1.45374e+02
  Pressure (bar)      dVcoul/dl       dVvdw/dl
-    8.42210e+02   -4.67473e+00   -7.93078e+00
+    4.41938e+02    1.96152e+01   -3.06292e+01
 
 
-DD  step 2479 load imb.: force 36.3%  pme mesh/force 1.490
+DD  step 2479 load imb.: force 32.7%  pme mesh/force 1.465
            Step           Time
            2500        5.00000
 
-Writing checkpoint, step 2500 at Mon May  2 13:39:02 2022
+Writing checkpoint, step 2500 at Mon May  2 17:54:01 2022
 
 
    Energies (kJ/mol)
            Bond          Angle    Proper Dih.          LJ-14     Coulomb-14
-    5.89730e-01    3.05693e+00    6.05850e-01   -4.99852e-01   -1.18219e+01
+    2.23042e+00    4.99102e+00    1.70231e-03   -4.85608e-01   -1.14286e+01
         LJ (SR)  Disper. corr.   Coulomb (SR)   Coul. recip.      Potential
-    5.22392e+03   -2.17861e+02   -3.87799e+04    2.90514e+02   -3.34914e+04
+    5.40045e+03   -2.19899e+02   -3.89975e+04    3.10206e+02   -3.35114e+04
     Kinetic En.   Total Energy  Conserved En.    Temperature Pres. DC (bar)
-    6.27619e+03   -2.72152e+04   -2.74902e+04    2.99366e+02   -1.43694e+02
+    6.22176e+03   -2.72897e+04   -2.74869e+04    2.96770e+02   -1.45038e+02
  Pressure (bar)      dVcoul/dl       dVvdw/dl
-    1.14502e+02    1.00755e+01    1.91736e+01
+    5.17657e+02    1.41974e+01    1.65807e+01
 
 
 Energy conservation over simulation part #1 of length 5 ns, time 0 to 5 ns
-  Conserved energy drift: 4.19e-03 kJ/mol/ps per atom
+  Conserved energy drift: 4.45e-03 kJ/mol/ps per atom
 
 
 	<======  ###############  ==>
@@ -579,23 +579,23 @@ Energy conservation over simulation part #1 of length 5 ns, time 0 to 5 ns
 
    Energies (kJ/mol)
            Bond          Angle    Proper Dih.          LJ-14     Coulomb-14
-    1.16919e+00    2.99221e+00    1.40796e+00   -4.96271e-01   -1.17243e+01
+    1.64177e+00    2.72847e+00    1.03357e+00   -4.95562e-01   -1.17163e+01
         LJ (SR)  Disper. corr.   Coulomb (SR)   Coul. recip.      Potential
-    5.34288e+03   -2.19909e+02   -3.91676e+04    3.11575e+02   -3.37397e+04
+    5.34682e+03   -2.20013e+02   -3.91987e+04    3.07163e+02   -3.37715e+04
     Kinetic En.   Total Energy  Conserved En.    Temperature Pres. DC (bar)
-    6.25333e+03   -2.74864e+04   -2.75137e+04    2.98276e+02   -1.45045e+02
+    6.26149e+03   -2.75100e+04   -2.75158e+04    2.98665e+02   -1.45114e+02
  Pressure (bar)      dVcoul/dl       dVvdw/dl
-    3.43667e+02    5.90616e+00    1.26613e+01
+    3.35537e+02    8.58335e+00    9.23027e+00
 
    Total Virial (kJ/mol)
-    1.78895e+03   -1.20646e+01   -3.81618e+01
-   -1.25542e+01    1.87145e+03   -5.25916e+01
-   -3.82479e+01   -5.25220e+01    1.81221e+03
+    1.82443e+03   -2.86487e+00    7.44902e+00
+   -3.25081e+00    1.87749e+03    2.52962e+01
+    7.46764e+00    2.53950e+01    1.79732e+03
 
    Pressure (bar)
-    3.77385e+02    1.91715e+01    5.43164e+01
-    1.98180e+01    2.95988e+02    8.16769e+01
-    5.44300e+01    8.15851e+01    3.57627e+02
+    3.39262e+02    1.15721e+00   -1.90652e+01
+    1.66687e+00    2.83860e+02   -2.41003e+01
+   -1.90898e+01   -2.42308e+01    3.83488e+02
 
 
 	M E G A - F L O P S   A C C O U N T I N G
@@ -607,10 +607,10 @@ Energy conservation over simulation part #1 of length 5 ns, time 0 to 5 ns
 
  Computing:                               M-Number         M-Flops  % Flops
 -----------------------------------------------------------------------------
- NB Free energy kernel                 2895.953712        2895.954     0.6
- Pair Search distance check              91.629020         824.661     0.2
- NxN Ewald Elec. + LJ [V&F]            2093.723536      265902.889    51.4
- NxN Ewald Elec. [V&F]                 2068.425168      173747.714    33.6
+ NB Free energy kernel                 2989.383912        2989.384     0.6
+ Pair Search distance check              91.949526         827.546     0.2
+ NxN Ewald Elec. + LJ [V&F]            2102.660752      267037.916    51.4
+ NxN Ewald Elec. [V&F]                 2076.521936      174427.843    33.6
  1,4 nonbonded interactions               0.002501           0.225     0.0
  Calc Weights                            18.915063         680.942     0.1
  Spread Q Bspline                       807.042688        1614.085     0.3
@@ -629,13 +629,13 @@ Energy conservation over simulation part #1 of length 5 ns, time 0 to 5 ns
  Constraint-Vir                           6.295017         151.080     0.0
  Settle                                   4.198356        1553.392     0.3
 -----------------------------------------------------------------------------
- Total                                                  517300.374   100.0
+ Total                                                  519211.844   100.0
 -----------------------------------------------------------------------------
 
 
     D O M A I N   D E C O M P O S I T I O N   S T A T I S T I C S
 
- av. #atoms communicated per step for force:  2 x 34001.0
+ av. #atoms communicated per step for force:  2 x 33955.6
 
 
 Dynamic load balancing report:
@@ -643,8 +643,8 @@ Dynamic load balancing report:
  Average load imbalance: 31.5%.
  The balanceable part of the MD step is 5%, load imbalance is computed from this.
  Part of the total run time spent waiting due to load imbalance: 1.5%.
- Average PME mesh/force load: 1.538
- Part of the total run time spent waiting due to PP/PME imbalance: 1.4 %
+ Average PME mesh/force load: 1.505
+ Part of the total run time spent waiting due to PP/PME imbalance: 1.3 %
 
 
      R E A L   C Y C L E   A N D   T I M E   A C C O U N T I N G
@@ -655,43 +655,43 @@ on 64 MPI ranks doing PME
  Computing:          Num   Num      Call    Wall time         Giga-Cycles
                      Ranks Threads  Count      (s)         total sum    %
 -----------------------------------------------------------------------------
- Domain decomp.        64    1         63       0.008          1.185   0.4
- DD comm. load         64    1          5       0.000          0.040   0.0
- Send X to PME         64    1       2501       0.006          0.882   0.3
- Neighbor search       64    1         63       0.013          1.892   0.6
- Comm. coord.          64    1       2438       0.033          4.788   1.4
- Force                 64    1       2501       0.193         27.802   8.3
- Wait + Comm. F        64    1       2501       0.148         21.267   6.3
- PME mesh *            64    1       2501       0.561         80.557  24.0
- PME wait for PP *                              0.323         46.483  13.8
- Wait + Recv. PME F    64    1       2501       0.786        113.011  33.6
- NB X/F buffer ops.    64    1       7377       0.011          1.593   0.5
- Write traj.           64    1          4       0.002          0.332   0.1
- Update                64    1      10004       0.007          0.946   0.3
- Constraints           64    1       5004       0.005          0.674   0.2
- Comm. energies        64    1       5002       0.225         32.354   9.6
+ Domain decomp.        64    1         63       0.008          1.189   0.3
+ DD comm. load         64    1          5       0.000          0.034   0.0
+ Send X to PME         64    1       2501       0.006          0.904   0.3
+ Neighbor search       64    1         63       0.013          1.899   0.5
+ Comm. coord.          64    1       2438       0.033          4.691   1.3
+ Force                 64    1       2501       0.194         27.865   8.0
+ Wait + Comm. F        64    1       2501       0.154         22.077   6.3
+ PME mesh *            64    1       2501       0.556         79.836  22.9
+ PME wait for PP *                              0.373         53.649  15.4
+ Wait + Recv. PME F    64    1       2501       0.777        111.675  32.0
+ NB X/F buffer ops.    64    1       7377       0.011          1.596   0.5
+ Write traj.           64    1          4       0.003          0.438   0.1
+ Update                64    1      10004       0.007          0.940   0.3
+ Constraints           64    1       5004       0.005          0.673   0.2
+ Comm. energies        64    1       5002       0.273         39.253  11.2
 -----------------------------------------------------------------------------
- Total                                          1.169        336.053 100.0
+ Total                                          1.214        348.932 100.0
 -----------------------------------------------------------------------------
 (*) Note that with separate PME ranks, the walltime column actually sums to
     twice the total reported, but the cycle count total and % are correct.
 -----------------------------------------------------------------------------
  Breakdown of PME mesh computation
 -----------------------------------------------------------------------------
- PME redist. X/F       64    1       7503       0.114         16.378   4.9
- PME spread            64    1       5002       0.079         11.305   3.4
- PME gather            64    1       5002       0.075         10.718   3.2
- PME 3D-FFT            64    1      10004       0.055          7.836   2.3
- PME 3D-FFT Comm.      64    1      20008       0.221         31.772   9.5
- PME solve Elec        64    1       5002       0.016          2.283   0.7
+ PME redist. X/F       64    1       7503       0.114         16.442   4.7
+ PME spread            64    1       5002       0.078         11.217   3.2
+ PME gather            64    1       5002       0.074         10.619   3.0
+ PME 3D-FFT            64    1      10004       0.054          7.820   2.2
+ PME 3D-FFT Comm.      64    1      20008       0.217         31.192   8.9
+ PME solve Elec        64    1       5002       0.016          2.280   0.7
 -----------------------------------------------------------------------------
 
-NOTE: 10 % of the run time was spent communicating energies,
+NOTE: 11 % of the run time was spent communicating energies,
       you might want to increase some nst* mdp options
 
                Core t (s)   Wall t (s)        (%)
-       Time:      149.623        1.169    12795.5
+       Time:      155.358        1.214    12796.2
                  (ns/day)    (hour/ns)
-Performance:      369.587        0.065
-Finished mdrun on rank 0 Mon May  2 13:39:02 2022
+Performance:      355.965        0.067
+Finished mdrun on rank 0 Mon May  2 17:54:01 2022
 

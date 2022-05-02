@@ -1,15 +1,15 @@
-# This file was created Mon May  2 13:39:01 2022
+# This file was created Mon May  2 17:54:00 2022
 # Created by:
 #                :-) GROMACS - gmx mdrun, 2021.4-plumed-2.8.0 (-:
 # 
 # Executable:   /jet/home/wehs7661/pkgs/gromacs/2021.4/bin/gmx_mpi
 # Data prefix:  /jet/home/wehs7661/pkgs/gromacs/2021.4
-# Working dir:  /ocean/projects/cts160011p/wehs7661/SCALE-MS/Issue/case_1
+# Working dir:  /ocean/projects/cts160011p/wehs7661/gmxapi_practice/Issues/case_1
 # Command line:
 #   gmx_mpi mdrun -deffnm sys -s sys.tpr
 # gmx mdrun is part of G R O M A C S:
 #
-# Glycine aRginine prOline Methionine Alanine Cystine Serine
+# Getting the Right Output Means no Artefacts in Calculating Stuff
 #
 @    title "dH/d\xl\f{} and \xD\f{}H"
 @    xaxis  label "Time (ps)"
@@ -38,6 +38,6 @@
 @ s13 legend "\xD\f{}H \xl\f{} to (1.0000, 0.6000)"
 @ s14 legend "\xD\f{}H \xl\f{} to (1.0000, 0.8000)"
 @ s15 legend "\xD\f{}H \xl\f{} to (1.0000, 1.0000)"
-0.0000    0 -27543.035 11.937063 16.774624 0.0000000 2.3874363 4.7748524 7.1622541 9.5496661 10.743374 11.937076 16.289576 21.948350 28.276377 34.934159 41.731037
-2.0000    8 -27320.102 -2.3634367 1.6796675 18.051654 17.578952 17.106280 16.633586 16.160903 15.924563 15.688220 2.6031812 0.0000000 2.1430432 6.6410621 12.354225
-4.0000    6 -27359.590 -4.6747284 -7.9307814 4.6747260 3.7397678 2.8048347 1.8698848 0.93494234 0.46746847 0.0000000 0.58214267 3.9521570 8.7545764 14.310107 20.252470
+0.0000    0 -27543.035 11.937067 16.774624 0.0000000 2.3874372 4.7748542 7.1622567 9.5496696 10.743378 11.937081 16.289581 21.948355 28.276382 34.934164 41.731042
+2.0000    4 -27290.100 20.056557 -15.290892 -16.045231 -12.033930 -8.0226075 -4.0113062 0.0000000 2.0056515 4.0113062 3.9850446 7.6730351 13.150622 19.525052 26.340444
+4.0000    2 -27385.432 19.615171 -30.629221 -7.8460746 -3.9230256 0.0000000 3.9230186 7.8460517 9.8075706 11.769085 9.6548852 12.352797 17.322342 23.428433 30.104252
