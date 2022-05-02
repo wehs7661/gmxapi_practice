@@ -1,0 +1,39 @@
+# This file was created Mon May  2 13:40:28 2022
+# Created by:
+#                 :-) GROMACS - GROMACS, 2021.4-plumed-2.8.0 (-:
+# 
+# Working dir:  /ocean/projects/cts160011p/wehs7661/SCALE-MS/Issue/case_3/mdrun_0_1434145704500_0
+# GROMACS is part of G R O M A C S:
+#
+# GROningen MAchine for Chemical Simulation
+#
+@    title "dH/d\xl\f{} and \xD\f{}H"
+@    xaxis  label "Time (ps)"
+@    yaxis  label "dH/d\xl\f{} and \xD\f{}H (kJ/mol [\xl\f{}]\S-1\N)"
+@TYPE xy
+@ subtitle "T = 298 (K) "
+@ view 0.15, 0.15, 0.75, 0.85
+@ legend on
+@ legend box on
+@ legend loctype view
+@ legend 0.78, 0.8
+@ legend length 2
+@ s0 legend "Thermodynamic state"
+@ s1 legend "Total Energy (kJ/mol)"
+@ s2 legend "dH/d\xl\f{} coul-lambda = 0.0000"
+@ s3 legend "dH/d\xl\f{} vdw-lambda = 0.0000"
+@ s4 legend "\xD\f{}H \xl\f{} to (0.0000, 0.0000)"
+@ s5 legend "\xD\f{}H \xl\f{} to (0.2000, 0.0000)"
+@ s6 legend "\xD\f{}H \xl\f{} to (0.4000, 0.0000)"
+@ s7 legend "\xD\f{}H \xl\f{} to (0.6000, 0.0000)"
+@ s8 legend "\xD\f{}H \xl\f{} to (0.8000, 0.0000)"
+@ s9 legend "\xD\f{}H \xl\f{} to (0.9000, 0.0000)"
+@ s10 legend "\xD\f{}H \xl\f{} to (1.0000, 0.0000)"
+@ s11 legend "\xD\f{}H \xl\f{} to (1.0000, 0.2000)"
+@ s12 legend "\xD\f{}H \xl\f{} to (1.0000, 0.4000)"
+@ s13 legend "\xD\f{}H \xl\f{} to (1.0000, 0.6000)"
+@ s14 legend "\xD\f{}H \xl\f{} to (1.0000, 0.8000)"
+@ s15 legend "\xD\f{}H \xl\f{} to (1.0000, 1.0000)"
+0.0000    0 -27543.035 11.937050 16.774622 3.6954880e-06 2.3874282 4.7748303 7.1622451 9.5496560 10.743359 11.937065 16.289563 21.948334 28.276364 34.934146 41.731024
+2.0000   10 -27232.250 9.5945587 -21.278477 11288.153 11290.071 11291.989 11293.908 11295.827 11296.787 11297.748 319.83541 63.834313 12.345913 -3.1292439e-07 -0.14520278
+4.0000    1 -27225.822 6.6172256 18.194324 -1.3234452 2.0302832e-06 1.3234542 2.6468869 3.9703333 4.6320576 5.2937799 9.6324509 14.934889 20.765662 26.869952 33.093959

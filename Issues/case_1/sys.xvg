@@ -1,0 +1,43 @@
+# This file was created Mon May  2 13:39:01 2022
+# Created by:
+#                :-) GROMACS - gmx mdrun, 2021.4-plumed-2.8.0 (-:
+# 
+# Executable:   /jet/home/wehs7661/pkgs/gromacs/2021.4/bin/gmx_mpi
+# Data prefix:  /jet/home/wehs7661/pkgs/gromacs/2021.4
+# Working dir:  /ocean/projects/cts160011p/wehs7661/SCALE-MS/Issue/case_1
+# Command line:
+#   gmx_mpi mdrun -deffnm sys -s sys.tpr
+# gmx mdrun is part of G R O M A C S:
+#
+# Glycine aRginine prOline Methionine Alanine Cystine Serine
+#
+@    title "dH/d\xl\f{} and \xD\f{}H"
+@    xaxis  label "Time (ps)"
+@    yaxis  label "dH/d\xl\f{} and \xD\f{}H (kJ/mol [\xl\f{}]\S-1\N)"
+@TYPE xy
+@ subtitle "T = 298 (K) "
+@ view 0.15, 0.15, 0.75, 0.85
+@ legend on
+@ legend box on
+@ legend loctype view
+@ legend 0.78, 0.8
+@ legend length 2
+@ s0 legend "Thermodynamic state"
+@ s1 legend "Total Energy (kJ/mol)"
+@ s2 legend "dH/d\xl\f{} coul-lambda = 0.0000"
+@ s3 legend "dH/d\xl\f{} vdw-lambda = 0.0000"
+@ s4 legend "\xD\f{}H \xl\f{} to (0.0000, 0.0000)"
+@ s5 legend "\xD\f{}H \xl\f{} to (0.2000, 0.0000)"
+@ s6 legend "\xD\f{}H \xl\f{} to (0.4000, 0.0000)"
+@ s7 legend "\xD\f{}H \xl\f{} to (0.6000, 0.0000)"
+@ s8 legend "\xD\f{}H \xl\f{} to (0.8000, 0.0000)"
+@ s9 legend "\xD\f{}H \xl\f{} to (0.9000, 0.0000)"
+@ s10 legend "\xD\f{}H \xl\f{} to (1.0000, 0.0000)"
+@ s11 legend "\xD\f{}H \xl\f{} to (1.0000, 0.2000)"
+@ s12 legend "\xD\f{}H \xl\f{} to (1.0000, 0.4000)"
+@ s13 legend "\xD\f{}H \xl\f{} to (1.0000, 0.6000)"
+@ s14 legend "\xD\f{}H \xl\f{} to (1.0000, 0.8000)"
+@ s15 legend "\xD\f{}H \xl\f{} to (1.0000, 1.0000)"
+0.0000    0 -27543.035 11.937063 16.774624 0.0000000 2.3874363 4.7748524 7.1622541 9.5496661 10.743374 11.937076 16.289576 21.948350 28.276377 34.934159 41.731037
+2.0000    8 -27320.102 -2.3634367 1.6796675 18.051654 17.578952 17.106280 16.633586 16.160903 15.924563 15.688220 2.6031812 0.0000000 2.1430432 6.6410621 12.354225
+4.0000    6 -27359.590 -4.6747284 -7.9307814 4.6747260 3.7397678 2.8048347 1.8698848 0.93494234 0.46746847 0.0000000 0.58214267 3.9521570 8.7545764 14.310107 20.252470
